@@ -1,0 +1,29 @@
+{
+  "name": "iframr",
+  "version": "0.0.0",
+  "description": "iframe sandbox",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "budo demo.js:bundle.js --title $npm_package_name --force-default-index --ssl --live --open",
+    "build": "browserify demo.js > bundle.js",
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/iframr.git"
+  },
+  "keywords": [
+    "iframe",
+    "sandbox",
+    "vm",
+    "virtualmachine"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serapath/iframr/issues"
+  },
+  "homepage": "https://github.com/serapath/iframr#readme",
+  "devDependencies": {
+    "budo": "^11.5.0"
+  }
+}
